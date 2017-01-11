@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>resizeColumns</title>
+    <link rel="stylesheet" href="resize.css">
+</head>
+
+<body>
+    <div class="tb-fixed-wrap">
+        <table id="resizeColumns" class="tb tb-border tb-fixed">
+            <thead>
+                <tr>
+                    <th class="g-id">序号</th>
+                    <th resize-column-name="name">name</th>
+                    <th resize-column-name="code">code</th>
+                    <th resize-column-name="year">year</th>
+                    <th resize-column-name="month">month</th>
+                    <th resize-column-name="address">address</th>
+                    <th resize-column-name="remark">remark</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>name-1</td>
+                    <td>code-1</td>
+                    <td>year-1</td>
+                    <td>month-1</td>
+                    <td>address-1</td>
+                    <td>remark-1remark-1remark-1remark-1remark-1remark-1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>name-2</td>
+                    <td>code-2</td>
+                    <td>year-2</td>
+                    <td>month-2</td>
+                    <td>address-2</td>
+                    <td>remark-2remark-2remark-2remark-2remark-2remark-2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="resize.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
